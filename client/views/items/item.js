@@ -12,6 +12,8 @@ Template.item.created = function () {
 
 Template.item.helpers({
   
+
+
   myHelper: function () {
     //
   }

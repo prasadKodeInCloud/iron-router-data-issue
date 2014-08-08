@@ -1,3 +1,9 @@
+ Template.signup.helpers({ 
+  myNum: function () {
+    return Math.random();
+  },
+})
+
 Template.signup.events = {
   'click input[type=submit]': function(event){
     event.preventDefault();

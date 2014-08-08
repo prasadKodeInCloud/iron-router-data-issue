@@ -4,7 +4,10 @@ Template.header.helpers({
   },
   isLoggedIn: function () {
     return !!Meteor.user();
-  }
+  },
+  myNum: function () {
+    return Math.random();
+  },
 })
 
 Template.header.events({
