@@ -11,9 +11,9 @@ Template.items.created = function () {
 };
 
 Template.items.helpers({
-  items: function(){
-    return Items.find();
-  },
+  // items: function(){
+  //   return Items.find();
+  // },
 
 });
 
