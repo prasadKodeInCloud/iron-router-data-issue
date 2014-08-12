@@ -12,7 +12,7 @@ In master branch data is parsed to the templates in router.js file. In the witho
 
 
 ## Without-Data Branch
-1. Checkout the without-data branch. ( git checkout without-data )
+1. Checkout the without-data branch. ( git checkout without-data ) and run the project.
 2. Click on items link or content page link.
 3. Observe that random number in header template is not getting changed.
 
