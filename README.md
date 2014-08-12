@@ -34,7 +34,7 @@ If not, here are the full instructions:
 ```
 curl https://install.meteor.com | /bin/sh
 npm install -g meteorite
-git clone https://github.com/SachaG/Void.git myApp
+git clone https://github.com/prasadKodeInCloud/iron-router-data-issue.git myApp
 cd myApp
 mrt
 ```
