@@ -1,4 +1,25 @@
+#Iron-router data issue
+
+This sample project is created on top of open source Void project to demonstrate the template rerendering issue when parsing data from iron router data hook to templates. Random numbers are added to each template to identify re-rendering when changing the routes.
+
+In master branch data is parsed to the templates in router.js file. In the without-data branch data is not parsed to the templates.
+
+##Master Branch
+
+1. Run the meteor project with the source in default master branch.
+2. Click on items link or content page link.
+3. Observe that random number in header template is changed.
+
+
+## Without-Data Branch
+1. Checkout the without-data branch. ( git checkout without-data ) and run the project.
+2. Click on items link or content page link.
+3. Observe that random number in header template is not getting changed.
+
+
 # Void
+
+
 
 A starter boilerplate app template for [Meteor](http://meteor.com) using [IronRouter](https://github.com/EventedMind/iron-router).
 
@@ -13,7 +34,7 @@ If not, here are the full instructions:
 ```
 curl https://install.meteor.com | /bin/sh
 npm install -g meteorite
-git clone https://github.com/SachaG/Void.git myApp
+git clone https://github.com/prasadKodeInCloud/iron-router-data-issue.git myApp
 cd myApp
 mrt
 ```
