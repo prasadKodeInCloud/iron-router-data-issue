@@ -2,6 +2,7 @@
 
 This sample project is created on top of open source Void project to demonstrate the template rerendering issue when parsing data from iron router data hook to templates. Random numbers are added to each template to identify re-rendering when changing the routes.
 
+In master branch data is parsed to the templates in router.js file. In the without-data branch data is not parsed to the templates.
 
 ##Master Branch
 
