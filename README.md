@@ -1,3 +1,21 @@
+#Iron-router data issue
+
+This sample project is created on top of open source Void project to demonstrate the template rerendering issue when parsing data from iron router data hook to templates. Random numbers are added to each template to identify re-rendering when changing the routes.
+
+
+##Master Branch
+
+1. Run the meteor project with the source in default master branch.
+2. Click on items link or content page link.
+3. Observe that random number in header template is changed.
+
+
+## Without-Data Branch
+1. Checkout the without-data branch. ( git checkout without-data )
+2. Click on items link or content page link.
+3. Observe that random number in header template is not getting changed.
+
+
 # Void
 
 
