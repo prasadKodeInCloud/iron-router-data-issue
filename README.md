@@ -8,7 +8,7 @@ In master branch data is parsed to the templates in router.js file. In the witho
 
 1. Run the meteor project with the source in default master branch.
 2. Click on items link or content page link.
-3. Observe that random number in header template is changed.
+3. Observe that random number in header template is getting changed.
 
 
 ## Without-Data Branch
